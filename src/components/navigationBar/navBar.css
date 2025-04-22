@@ -1,0 +1,56 @@
+
+ .custom-navbar {
+    background-color: #000000; 
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid white;
+  }
+
+  .brand-text {
+    color: #ecf0f1; 
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+  }
+  
+  .brand-text:hover {
+    color: #3498db; 
+  }
+  .custom-navbar .navbar-toggler-icon {
+    background-color: #ffffff;  
+  }
+  .custom-navbar .navbar-toggler {
+    background-color: #ffffff;  
+
+  }
+ 
+  .nav-item {
+    color: #ecf0f1 !important; 
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 15px;
+    text-transform: uppercase;
+  }
+  
+  .nav-item:hover {
+    color: #3498db !important; 
+    background-color: rgba(52, 152, 219, 0.1);
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 991px) {
+    .custom-navbar {
+      background-color: #000000;
+    }
+  
+    .nav-item {
+      font-size: 16px;
+    }
+  
+    .brand-text {
+      font-size: 22px;
+    }
+  }
+  

@@ -1,0 +1,46 @@
+.main-project {
+  display:flex;
+  justify-content:center;
+  padding: 20px;
+  border: 1px solid white;
+  margin: 20px; /* Remove the margin from here, it can be handled in the parent */
+  max-width: 100%; /* Ensure the container doesn’t overflow */
+  width: 97%; /* Take up 90% of the viewport width to leave space around */
+  box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+/* Styling for the project container */
+.project-container {
+  display: flex;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 800px; /* Max width for larger screens */
+  width: 100%; /* Ensure it doesn't overflow the container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.project-heading {
+  font-size: 3vw;
+  margin-bottom: 10px;
+}
+
+.short-desc {
+  font-size: 1.8vw;
+  margin-bottom: 15px;
+}
+
+p.description{
+  font-size:1.4vw;
+}
+
+img.project-logo{
+  width:400px;
+  height:400px;
+}
+@media (max-width: 768px) {
+  .project-container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Optional: center the content */
+  }
+}

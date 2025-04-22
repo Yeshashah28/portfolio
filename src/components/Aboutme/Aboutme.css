@@ -1,0 +1,35 @@
+.about-me-container{
+    display:flex;
+    justify-content: space-around;
+    margin:50px;
+}
+
+.about-me-svg{
+    width:30vw;
+    height:30vw;
+    
+    background-color: #6c757d;
+}
+
+.about-me-image{
+    padding:50px 25px 50px ;
+}
+
+.about-me-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20px;
+    width:50%;
+}
+
+h1.about-me-heading{
+    font-size: 3vw;
+    line-height:2;
+    font-weight:400;
+}
+
+p.about-me-paragraph1,p.about-me-paragraph2{
+    font-size: 1.4vw;
+}
+

@@ -1,0 +1,47 @@
+/* Overall styling for the Carousel container */
+.carousel {
+    margin-top: 50px; /* Add space above the carousel */
+    margin-bottom: 50px; /* Add space below the carousel */
+    max-width: 800px; /* Adjust the maximum width of the carousel */
+    margin-left: auto;
+    margin-right: auto; /* Centers the carousel horizontally */
+  }
+  
+  /* Styling for each carousel image to ensure it looks good */
+  .carousel-item img {
+    object-fit: cover;
+    border-radius: 50px; /* Optional: Adds rounded corners to the images */
+
+  }
+  
+  .certificates-heading{
+    margin:20px;
+    padding:20px;
+    font-weight: 300;
+    padding-bottom: 0px;
+    margin-top: 50px;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    font-size: 4vw;
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 768px) {
+    .carousel {
+      max-width: 100%; /* Full width on smaller screens */
+    }
+  
+    .carousel-caption h3 {
+      font-size: 1.5rem; /* Smaller text on mobile */
+    }
+  
+    .carousel-caption p {
+      font-size: 1rem; /* Adjust paragraph size on mobile */
+    }
+  
+    /* Optionally adjust the image size on smaller screens */
+    .carousel-item img {
+      height: 300px; /* Decrease image height on smaller screens */
+    }
+  }
+  

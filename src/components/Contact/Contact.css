@@ -1,0 +1,26 @@
+.Contact-container{
+    margin:20px;
+    margin-top: 50px;
+    margin-bottom:50px;
+    padding:20px;
+
+}
+
+.contact-heading{
+    font-weight: 300;
+    padding-top: 20px;
+    margin-bottom:20px;
+    font-size: 4vw;
+}
+
+.contact-details.container{
+    display: flex;
+    justify-content: flex-start;
+}
+.contact-desc{
+    margin-left:20px;
+}
+
+a{
+    color:white;
+}

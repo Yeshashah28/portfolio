@@ -1,0 +1,36 @@
+.container1{
+    display:flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    max-height:747px;
+    margin-bottom:60px;
+}
+
+.main-container1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 197px;
+}
+
+.introduction {
+    font-size:clamp(24px, 5vw, 48px);
+    font-family: sans-serif;
+}
+
+.greetings{
+    font-family: edwardian script itc;
+    font-size: 11.5vw;
+}
+.role{
+    font-size:clamp(12px,2.5vw,24px);
+}
+.intro-image{
+    width:600px;
+    height:600px;
+}
+
+@media (max-width: 991px) {
+    .container{
+      background-color: #000000;
+    }
+}

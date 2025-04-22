@@ -1,0 +1,29 @@
+.skills-progress{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+}
+
+div.progress{
+    width:85vw;
+    height:1vw;
+    --bs-progress-bar-bg: #6c757d;
+}
+
+.skills-section{
+    margin:95px;
+}
+
+h3{
+    font-size: 1.4vw;
+    font-weight: 200;
+}
+
+h2.section-title{
+    font-size: 3vw;
+    text-align: center;
+    padding-bottom: 20px;
+    font-style: italic;
+    font-weight: 400;
+}
