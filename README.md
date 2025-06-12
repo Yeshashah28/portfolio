@@ -3,7 +3,7 @@
 ![React](https://img.shields.io/badge/Frontend-React-61DAFB?logo=react&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/UI%20Library-React--Bootstrap-7952B3?logo=bootstrap&logoColor=white)
 
-This is a responsive and modern **portfolio website** built using **React** and **React-Bootstrap**. It showcases a developer’s personal brand, skills, projects, resume, and contact details in a clean, user-friendly interface. It is built to gain practical understanding of React concepts including:
+This is a **portfolio website** built using **React** and **React-Bootstrap**. It showcases a developer’s personal brand, skills, projects, resume, and contact details in a clean, user-friendly interface. It is built to gain practical understanding of React concepts including:
 
 - Component-based architecture
 - Navigation and routing using `react-router-dom`
